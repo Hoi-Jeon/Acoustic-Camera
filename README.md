@@ -2,21 +2,19 @@
 The **delay-and-sum beamforming in the time/freqeuncy domain** is implemented with Raspberry pi 3b+ and the digital 8 MEMS microphones on the [MATRIX Creator](https://matrix-io.github.io/matrix-documentation/matrix-creator/overview/). 
 
 ![AcousticCamera_00](Pictures/AcousticCamera_00.gif)
-</br><Demonstration of Sound camera, while moving iPhone (playing music) over the microphone array></br>´
-
+</br><Demonstration of Sound camera, while moving iPhone (playing music) over the microphone array></br>
 
 ## System Overview
 The whole system consists of the three parts, i.e. ***5 inch touch-screen***, ***Raspberry pi with V1 Camera***, and ***MATRIX creator***. 
 
-
-
 ![AcousticCamera_01](Pictures/AcousticCamera_01.JPG)
 </br><Raspberry 3b+ with Camera + 5 inch touch-screen, before connecting Matrix Creator over RPi GPIO></br>
+
+The assembled acoustic camera is shown below:</br>
 
 ![AcousticCamera_02](Pictures/AcousticCamera_02.JPG)
 </br><The assembled acoustic camera></br>
 
-</br>
 The core part of signal measurement and post-processing (e.g. CIC filter, Decimation, and FIR filter) is done in the FPGA code of MATRIX creator and the detailed explanation of FPGA code can be found [here](https://github.com/Hoi-Jeon/Verilog-for-Mic-in-Matrix-Creator).
 
 
