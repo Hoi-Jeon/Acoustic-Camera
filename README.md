@@ -128,3 +128,5 @@ The colormap of acoustic camera and FFT bar-graph at the center position are dis
 
 ## Remarks
 Some parts of C++ codes are got from internet search and I always tried to copy the codes **with reference** and **without violating any copyright**. Nevertheless, please let me know if there is any possible copyright infringement issue in the codes. Then, I will remove it from the repository immediately.
+</br>
+Unfortunately, "sound_camera.cpp" is not shared, due to the personal reason
